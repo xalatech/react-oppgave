@@ -1,0 +1,87 @@
+.container {
+  width: 100%;
+  text-align: center;
+}
+
+.main {
+  text-align: center;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+  padding: 30px;
+}
+
+.title,
+.description {
+  text-align: center;
+}
+
+.description {
+  line-height: 1.5;
+  font-size: 1rem;
+}
+
+.image {
+  width: 450px;
+  height: 450px;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.3), 
+    rgba(0, 0, 0, 0.3))
+}
+
+/* Container needed to position the overlay. Adjust the width as needed */
+.fullscreen_container {
+  position: relative;
+  min-width: 100%;
+}
+
+ .close_button {
+  top: 0;
+  left: 0;
+  margin: 20px;
+  position: absolute;
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity:1;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+}
+
+
+/* The overlay effect - lays on top of the container and over the image */
+.overlay {
+  position: absolute;
+  bottom: 0;
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity:1;
+  padding: 20px;
+  text-align: left;
+}
+
+.fullscreen_title {
+  margin: 20px;
+  position: absolute;
+  bottom: 0;
+  color: #f1f1f1;
+  line-height: 1.45;
+  font-size: 4rem;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+.fullscreen_subtitle {
+  margin: 20px;
+  position: absolute;
+  bottom: 0;
+  color: #f1f1f1;
+  line-height: 1.15;
+  font-size: 1.5rem;
+}
